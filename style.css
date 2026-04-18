@@ -38,6 +38,23 @@ nav .logo {
   font-size: 20px;
   color: var(--text);
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav .logo img {
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+}
+
+.hero-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  margin-bottom: 28px;
+  box-shadow: 0 8px 32px rgba(0, 122, 255, 0.25);
 }
 
 nav a {
